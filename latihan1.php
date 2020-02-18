@@ -1,34 +1,74 @@
-<?php 
-// Pengulangan
-// for
-// while
-// do .. while
-// foreach : khusus array
+<?php
+// mencetak tulisan ke layar 
+echo "<h1>Hello World!</h1>";
+echo "<hr>";
 
-// for
-// for ( $i = 0; $i < 5; $i++) {
-// echo "hello world! <br>"; }
+echo (2 + 3) * (3 - 4);
+echo "<hr>";
 
-// while
-// $i = 0;
-// while ( $i < 5) {
-//     echo "Hello World <br>";
-// $i++;}
+// VARIABEL
+// tempat untuk menyimpan nilai
+$nama = "Bayuc";
+$email = "bayucucan36@gmail.com";
+echo $nama;
+echo "<br>";
+echo $email;
+echo "<hr>";
 
-// do .. while
-// $i = 0;
-// do {
-//     echo "Hello World! <br>";
-//     $i++;
-// } while ( $i < 5);
+// OPERATOR
+// Operator aritmetika / matematika
+//  + , - ,* , / , %
+echo 10 / 3;
+echo "<hr>";
+
+// Operator assignment / penugasan
+// = , += , -=, /= , .=
+$x = 1;
+$y = 2;
+$z = $x;
+echo $z;
+echo "<hr>";
+
+$a = 1;
+$a += 5;
+echo $a;
+echo "<hr>";
+
+
+// Operator increment / decrement
+// ++ (tambah 1) , -- (kurang 1)
+$x = 1;
+$x ++; 
+echo $x;
+echo "<hr>";
+
+
+// Operator string / concat / penggabung string
+// .
+$nama_depan = "Bayu";
+$nama_belakang = "Cucan";
+echo $nama_depan . ' ' . $nama_belakang;
+echo "<hr>";
+
+$nama = 'Bayu';
+$nama .= ' ';
+$nama .= "Cucan";
+echo $nama;
+echo "<hr>";
+
+// Standar Output
+// echo, print
+// '' , ""
+// escade character '\'
+$salam = "assalamua'alaikum";
+echo $salam;
+echo "<br>";
+
+// $percakapan = 'A : " ' . $salam . '"';
+// $percakapan = 'A : "assalamua\'alikum"';
+$percakapan = "A : \"Assalamu'alaikum\"";
+echo $percakapan; 
+
+
 
 ?>
-
-
-
-
-
-
-
-
-
